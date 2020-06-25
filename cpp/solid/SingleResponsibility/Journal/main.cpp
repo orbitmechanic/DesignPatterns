@@ -7,6 +7,8 @@ struct Journal
 {
     string title;
     vector<string> entries;
+
+    Journal(const string &title) : title(title) {}
 };
 int main() {
     getchar();
