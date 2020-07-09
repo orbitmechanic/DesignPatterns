@@ -1,0 +1,3 @@
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/solid/OpenClosed/ProductFilter/cmake-build-debug/CMakeFiles/ProductFilter.dir
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/solid/OpenClosed/ProductFilter/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/solid/OpenClosed/ProductFilter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
