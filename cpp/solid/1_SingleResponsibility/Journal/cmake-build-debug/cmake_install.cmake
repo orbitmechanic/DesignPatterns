@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/orbit/Documents/code/DesignPatterns/cpp/solid/SingleResponsibility/Journal
+# Install script for directory: C:/Users/orbit/Documents/code/DesignPatterns/cpp/solid/1_SingleResponsibility/Journal
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

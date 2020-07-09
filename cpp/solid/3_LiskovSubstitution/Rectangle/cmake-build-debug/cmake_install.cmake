@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/orbit/Documents/code/DesignPatterns/cpp/solid/2_OpenClosed/ProductFilter
+# Install script for directory: C:/Users/orbit/Documents/code/DesignPatterns/cpp/solid/3_LiskovSubstitution/Rectangle
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ProductFilter")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Rectangle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/orbit/Documents/code/DesignPatterns/cpp/solid/OpenClosed/ProductFilter/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/orbit/Documents/code/DesignPatterns/cpp/solid/3_LiskovSubstitution/Rectangle/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
