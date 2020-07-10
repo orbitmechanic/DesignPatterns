@@ -73,7 +73,7 @@ struct HtmlBuilder
 
 int demo()
 {
-    // <p>hello</p>
+    // <p>hello</p>Handles complex
     auto text = "hello";
     string output;
     output += "<p>";
