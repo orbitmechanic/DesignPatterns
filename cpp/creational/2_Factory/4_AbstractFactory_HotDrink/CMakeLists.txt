@@ -3,4 +3,4 @@ project(4_AbstractFactory_HotDrink)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(4_AbstractFactory_HotDrink main.cpp)
+add_executable(4_AbstractFactory_HotDrink main.cpp TeaFactory.h)
