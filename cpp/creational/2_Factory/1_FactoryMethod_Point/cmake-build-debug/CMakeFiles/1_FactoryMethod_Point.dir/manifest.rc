@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/orbit/Documents/code/DesignPatterns/cpp/creational/2_Factory/1_FactoryMethod_Point/cmake-build-debug/CMakeFiles/1_FactoryMethod_Point.dir/embed.manifest"
