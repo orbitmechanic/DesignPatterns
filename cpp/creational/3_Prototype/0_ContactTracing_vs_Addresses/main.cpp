@@ -47,20 +47,30 @@ struct Contact
     }
 };
 
-// Create a global instance of the object to be a prototype.
-// But not obvious enough.  Not constrained enough.
-Contact homeOffice{"", new Address{"123 East Drive", "London", 0}};
+// Create an employee factory
+struct EmployeeFactory
+{
+    static unique_ptr<Contact> new_main_office_employee
+            (const string& name, const int suite)
+    {
+        static Contact p{"", new Address{"123 East Drive", "London", 0}};
+        return new_employee(name, suite, p);
+    }
+private:
+    static unique_ptr<Contact> new_employee(const string& name, int suite,
+            const Contact& prototype)
+    {
+        auto result = make_unique<Contact>(prototype);
+        result->name = name;
+        result->address-> suite = suite;
+        return result;
+    }
+};
+
 
 int main()
 {
-    Contact john{"John Doe", new Address{"123 East Dr", "London", 123}};
-    // Duplicate code way:
-    // contact jane{"Jane Doe", Address{"123 East Dr", "London", 103}};
-    // More efficient:
-    // Contact jane = john; // shallow copy.
-    Contact jane{john}; // Use deep copy.
-    jane.name = "Jane Smith";
-    jane.address->suite = 103;
+    auto john = EmployeeFactory::new_main_office_employee("John", 123);
 
-    cout << john << endl << jane << endl;
+    cout << *john << endl;
 }
