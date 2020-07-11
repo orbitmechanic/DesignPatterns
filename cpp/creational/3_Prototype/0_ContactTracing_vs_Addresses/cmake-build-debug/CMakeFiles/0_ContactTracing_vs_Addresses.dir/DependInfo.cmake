@@ -10,6 +10,7 @@ set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "C:/Users/orbit/Documents/code/boost_1_73_0"
   )
 
 # Targets to which this target links.

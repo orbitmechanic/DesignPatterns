@@ -10,10 +10,18 @@
 #include <cmath>
 using namespace std;
 
+#include <boost/serialization/serialization.hpp>
+#include <boost/archive/text_iarchive.hpp>
+#include <boost/archive/text_oarchive.hpp>
+using namespace boost;
+
+
 struct Address
 {
     string street, city;
     int suite;
+
+    Address() {}
 
     Address(const string &street,
             const string &city, int suite) :
@@ -28,12 +36,23 @@ struct Address
         << address.city << " suite: " << address.suite;
         return os;
     }
+private:
+    friend class serialization::access;
+    template <class archive>
+    void serialize(archive& ar, const unsigned version)
+    {
+        ar & street;
+        ar & city;
+        ar & suite;
+    }
 };
 
 struct Contact
 {
     string name;
     Address* address;
+
+    Contact() {}
 
     Contact(const string &name, Address *address) : name(name), address(address) {}
 
@@ -44,6 +63,14 @@ struct Contact
     friend ostream &operator<<(ostream &os, const Contact &contact) {
         os << "name: " << contact.name << " address: " << *contact.address;
         return os;
+    }
+private:
+    friend class serialization::access;
+    template <class archive>
+      void serialize(archive& ar, const unsigned version)
+    {
+      ar & name;
+      ar & address;
     }
 };
 
@@ -70,7 +97,22 @@ private:
 
 int main()
 {
-    auto john = EmployeeFactory::new_main_office_employee("John", 123);
+    auto clone = [](const Contact& c)
+    {
+        ostringstream oss;
+        archive::text_oarchive oa(oss);
+        oa << c;
+        string s = oss.str();
+        cout << s << endl;
 
-    cout << *john << endl;
+        istringstream iss(s);
+        archive::text_iarchive ia(iss);
+        Contact result;
+        ia >> result;
+        return result;
+    };
+    auto john = EmployeeFactory::new_main_office_employee("John",123);
+    auto jane = clone(*john);
+    jane.name = "Jane";
+    cout << *john << endl << jane << endl;
 }
