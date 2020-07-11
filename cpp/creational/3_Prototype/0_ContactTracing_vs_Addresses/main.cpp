@@ -46,6 +46,11 @@ struct Contact
         return os;
     }
 };
+
+// Create a global instance of the object to be a prototype.
+// But not obvious enough.  Not constrained enough.
+Contact homeOffice{"", new Address{"123 East Drive", "London", 0}};
+
 int main()
 {
     Contact john{"John Doe", new Address{"123 East Dr", "London", 123}};
