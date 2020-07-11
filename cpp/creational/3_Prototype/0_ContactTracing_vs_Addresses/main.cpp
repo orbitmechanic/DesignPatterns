@@ -29,24 +29,24 @@ struct Address
 struct Contact
 {
     string name;
-    Address address;
+    Address* address;
 
-    Contact(const string &name, const Address &address) : name(name), address(address) {}
+    Contact(const string &name, Address *address) : name(name), address(address) {}
 
     friend ostream &operator<<(ostream &os, const Contact &contact) {
-        os << "name: " << contact.name << " address: " << contact.address;
+        os << "name: " << contact.name << " address: " << *contact.address;
         return os;
     }
 };
 int main()
 {
-    Contact john{"John Doe", Address{"123 East Dr", "London", 123}};
+    Contact john{"John Doe", new Address{"123 East Dr", "London", 123}};
     // Duplicate code way:
     // contact jane{"Jane Doe", Address{"123 East Dr", "London", 103}};
     // More efficient:
     Contact jane = john;
     jane.name = "Jane Smith";
-    jane.address.suite = 103;
+    jane.address->suite = 103;
 
     cout << john << endl << jane << endl;
 }
