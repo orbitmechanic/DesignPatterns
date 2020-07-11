@@ -33,6 +33,11 @@ struct Contact
 
     Contact(const string &name, Address *address) : name(name), address(address) {}
 
+    Contact(const Contact& other)
+        : name {other.name}
+        , address{ new Address{other.address->street, other.address-> city,
+                               other.address->suite}} {} // (deep) copy constructor
+
     friend ostream &operator<<(ostream &os, const Contact &contact) {
         os << "name: " << contact.name << " address: " << *contact.address;
         return os;
@@ -44,7 +49,8 @@ int main()
     // Duplicate code way:
     // contact jane{"Jane Doe", Address{"123 East Dr", "London", 103}};
     // More efficient:
-    Contact jane = john;
+    // Contact jane = john; // shallow copy.
+    Contact jane{john}; // Use deep copy.
     jane.name = "Jane Smith";
     jane.address->suite = 103;
 
