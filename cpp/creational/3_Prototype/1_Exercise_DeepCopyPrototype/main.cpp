@@ -26,6 +26,7 @@ struct Line
 
     Line deep_copy() const
     {
+        // Exercise: write this:
         auto* copyStart = new Point(start->x,start->y);
         auto* copyEnd = new Point(end->x,end->y);
         return Line(copyStart, copyEnd);

@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\orbit\Documents\code\DesignPatterns\cpp\creational\4_Singleton\0_Database
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/orbit/Documents/code/DesignPatterns/cpp/creational/4_Singleton/0_Database/cmake-build-debug

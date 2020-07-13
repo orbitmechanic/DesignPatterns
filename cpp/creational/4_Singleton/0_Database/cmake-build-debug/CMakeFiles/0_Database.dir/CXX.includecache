@@ -1,0 +1,980 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Program Files/boost/boost_1_73_0/boost/assert.hpp
+boost/config.hpp
+-
+boost/current_function.hpp
+-
+assert.h
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/assert/source_location.hpp
+boost/current_function.hpp
+-
+boost/config.hpp
+-
+boost/cstdint.hpp
+-
+iosfwd
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config.hpp
+boost/config/user.hpp
+-
+boost/config/detail/select_compiler_config.hpp
+-
+boost/config/detail/select_stdlib_config.hpp
+-
+boost/config/detail/select_platform_config.hpp
+-
+boost/config/detail/suffix.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/borland.hpp
+climits
+-
+cwchar
+-
+limits.h
+-
+wchar.h
+-
+cstring
+-
+errno.h
+-
+float.h
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/clang.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/codegear.hpp
+cstring
+-
+errno.h
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/comeau.hpp
+boost/config/compiler/common_edg.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/common_edg.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/compaq_cxx.hpp
+boost/config/compiler/common_edg.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/cray.hpp
+boost/config/compiler/common_edg.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/digitalmars.hpp
+cstddef
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/gcc.hpp
+cstddef
+-
+stddef.h
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/gcc_xml.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/greenhills.hpp
+boost/config/compiler/common_edg.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/hp_acc.hpp
+boost/config/compiler/common_edg.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/intel.hpp
+boost/config/compiler/visualc.hpp
+-
+boost/config/compiler/gcc.hpp
+-
+boost/config/compiler/common_edg.hpp
+-
+cwchar
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/kai.hpp
+boost/config/compiler/common_edg.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/metrowerks.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/mpw.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/nvcc.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/pathscale.hpp
+boost/config/compiler/clang.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/boost/config/compiler/clang.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/pgi.hpp
+boost/config/compiler/gcc.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/sgi_mipspro.hpp
+boost/config/compiler/common_edg.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/sunpro_cc.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/vacpp.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/visualc.hpp
+boost/config/pragma_message.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/xlcpp.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/config/compiler/xlcpp_zos.hpp
+features.h
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/posix_features.hpp
+unistd.h
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/select_compiler_config.hpp
+boost/config/compiler/nvcc.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/compiler/nvcc.hpp
+boost/config/compiler/gcc_xml.hpp
+-
+boost/config/compiler/cray.hpp
+-
+boost/config/compiler/comeau.hpp
+-
+boost/config/compiler/pathscale.hpp
+-
+boost/config/compiler/intel.hpp
+-
+boost/config/compiler/clang.hpp
+-
+boost/config/compiler/digitalmars.hpp
+-
+boost/config/compiler/gcc.hpp
+-
+boost/config/compiler/kai.hpp
+-
+boost/config/compiler/sgi_mipspro.hpp
+-
+boost/config/compiler/compaq_cxx.hpp
+-
+boost/config/compiler/greenhills.hpp
+-
+boost/config/compiler/codegear.hpp
+-
+boost/config/compiler/borland.hpp
+-
+boost/config/compiler/metrowerks.hpp
+-
+boost/config/compiler/sunpro_cc.hpp
+-
+boost/config/compiler/hp_acc.hpp
+-
+boost/config/compiler/mpw.hpp
+-
+boost/config/compiler/xlcpp_zos.hpp
+-
+boost/config/compiler/xlcpp.hpp
+-
+boost/config/compiler/vacpp.hpp
+-
+boost/config/compiler/pgi.hpp
+-
+boost/config/compiler/visualc.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/select_platform_config.hpp
+boost/config/detail/posix_features.hpp
+-
+boost/config/platform/linux.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/platform/linux.hpp
+boost/config/platform/bsd.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/platform/bsd.hpp
+boost/config/platform/solaris.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/platform/solaris.hpp
+boost/config/platform/irix.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/platform/irix.hpp
+boost/config/platform/hpux.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/platform/hpux.hpp
+boost/config/platform/cygwin.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/platform/cygwin.hpp
+boost/config/platform/win32.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/platform/win32.hpp
+boost/config/platform/beos.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/platform/beos.hpp
+boost/config/platform/macos.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/platform/macos.hpp
+boost/config/platform/zos.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/platform/zos.hpp
+boost/config/platform/aix.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/platform/aix.hpp
+boost/config/platform/amigaos.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/platform/amigaos.hpp
+boost/config/platform/qnxnto.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/platform/qnxnto.hpp
+boost/config/platform/vxworks.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/platform/vxworks.hpp
+boost/config/platform/symbian.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/platform/symbian.hpp
+boost/config/platform/cray.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/platform/cray.hpp
+boost/config/platform/vms.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/platform/vms.hpp
+boost/config/detail/posix_features.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/select_stdlib_config.hpp
+version
+-
+cstddef
+-
+cstddef
+-
+stddef.h
+-
+utility
+-
+boost/config/stdlib/stlport.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/stdlib/stlport.hpp
+boost/config/stdlib/libcomo.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/stdlib/libcomo.hpp
+boost/config/stdlib/roguewave.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/stdlib/roguewave.hpp
+boost/config/stdlib/libcpp.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/stdlib/libcpp.hpp
+boost/config/stdlib/libstdcpp3.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/stdlib/libstdcpp3.hpp
+boost/config/stdlib/sgi.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/stdlib/sgi.hpp
+boost/config/stdlib/msl.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/stdlib/msl.hpp
+boost/config/stdlib/xlcpp_zos.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/stdlib/xlcpp_zos.hpp
+boost/config/stdlib/vacpp.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/stdlib/vacpp.hpp
+boost/config/stdlib/modena.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/stdlib/modena.hpp
+boost/config/stdlib/dinkumware.hpp
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/boost/config/stdlib/dinkumware.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/config/detail/suffix.hpp
+limits.h
+-
+cstddef
+-
+typeinfo
+-
+boost/config/helper_macros.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/helper_macros.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/config/no_tr1/utility.hpp
+utility
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/platform/aix.hpp
+boost/config/detail/posix_features.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/platform/amigaos.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/config/platform/beos.hpp
+boost/config/detail/posix_features.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/platform/bsd.hpp
+boost/config/detail/posix_features.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/platform/cray.hpp
+boost/config/detail/posix_features.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/platform/cygwin.hpp
+unistd.h
+-
+sys/types.h
+-
+cygwin/version.h
+-
+pthread.h
+-
+boost/config/detail/posix_features.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/platform/hpux.hpp
+boost/config/detail/posix_features.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/platform/irix.hpp
+boost/config/detail/posix_features.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/platform/linux.hpp
+cstdlib
+-
+stdlib.h
+-
+boost/config/detail/posix_features.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/platform/macos.hpp
+boost/config/detail/posix_features.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/platform/qnxnto.hpp
+boost/config/detail/posix_features.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/platform/solaris.hpp
+boost/config/detail/posix_features.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/platform/symbian.hpp
+cstdlib
+-
+stdlib.h
+-
+boost/config/detail/posix_features.hpp
+-
+sys/endian.h
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/platform/vms.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/config/platform/vxworks.hpp
+version.h
+-
+time.h
+-
+sysLib.h
+-
+cstdint
+-
+sys/time.h
+-
+ioLib.h
+-
+tickLib.h
+-
+signal.h
+-
+boost/config/detail/posix_features.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/platform/win32.hpp
+_mingw.h
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/platform/zos.hpp
+features.h
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/pragma_message.hpp
+boost/config/helper_macros.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/stdlib/dinkumware.hpp
+boost/config/no_tr1/utility.hpp
+-
+exception
+-
+typeinfo
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/stdlib/libcomo.hpp
+boost/config/no_tr1/utility.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/stdlib/libcpp.hpp
+ciso646
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/stdlib/libstdcpp3.hpp
+unistd.h
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/stdlib/modena.hpp
+boost/config/no_tr1/utility.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/stdlib/msl.hpp
+boost/config/no_tr1/utility.hpp
+-
+cstddef
+-
+boost/config/detail/posix_features.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/stdlib/roguewave.hpp
+boost/config/no_tr1/utility.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/stdlib/sgi.hpp
+boost/config/no_tr1/utility.hpp
+-
+unistd.h
+-
+string
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/stdlib/stlport.hpp
+cstddef
+-
+unistd.h
+-
+stdlib.h
+-
+string.h
+-
+algorithm
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/stdlib/vacpp.hpp
+unistd.h
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/config/stdlib/xlcpp_zos.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/config/user.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/config/workaround.hpp
+boost/config.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/cstdint.hpp
+boost/config.hpp
+-
+inttypes.h
+-
+inttypes.h
+-
+stdint.h
+-
+inttypes.h
+-
+boost/limits.hpp
+-
+limits.h
+-
+stddef.h
+-
+limits.h
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/current_function.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/detail/lcast_precision.hpp
+climits
+-
+ios
+-
+limits
+-
+boost/config.hpp
+-
+boost/integer_traits.hpp
+-
+boost/type_traits/conditional.hpp
+-
+boost/type_traits/is_abstract.hpp
+-
+boost/assert.hpp
+-
+boost/static_assert.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/detail/workaround.hpp
+boost/config/workaround.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/exception/exception.hpp
+boost/config.hpp
+-
+memory
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/integer_traits.hpp
+boost/config.hpp
+-
+boost/limits.hpp
+-
+limits.h
+-
+wchar.h
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/lexical_cast/bad_lexical_cast.hpp
+boost/config.hpp
+-
+typeinfo
+-
+exception
+-
+boost/throw_exception.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/lexical_cast/detail/widest_char.hpp
+boost/config.hpp
+-
+boost/type_traits/conditional.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/lexical_cast/lexical_cast_old.hpp
+boost/config.hpp
+-
+climits
+-
+cstddef
+-
+string
+-
+cstring
+-
+cstdio
+-
+boost/limits.hpp
+-
+boost/type_traits/is_pointer.hpp
+-
+boost/static_assert.hpp
+-
+boost/detail/lcast_precision.hpp
+-
+boost/detail/workaround.hpp
+-
+strstream
+-
+sstream
+-
+boost/lexical_cast/bad_lexical_cast.hpp
+-
+boost/lexical_cast/detail/widest_char.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/limits.hpp
+boost/config.hpp
+-
+limits
+-
+climits
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/static_assert.hpp
+boost/config.hpp
+-
+boost/detail/workaround.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/throw_exception.hpp
+boost/assert/source_location.hpp
+-
+boost/config.hpp
+-
+boost/config/workaround.hpp
+-
+exception
+-
+boost/exception/exception.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/add_lvalue_reference.hpp
+boost/type_traits/add_reference.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/add_reference.hpp
+boost/detail/workaround.hpp
+-
+boost/config.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/add_rvalue_reference.hpp
+boost/config.hpp
+-
+boost/type_traits/is_void.hpp
+-
+boost/type_traits/is_reference.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/conditional.hpp
+boost/config.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/declval.hpp
+boost/config.hpp
+-
+boost/type_traits/add_rvalue_reference.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/detail/config.hpp
+boost/config.hpp
+-
+boost/version.hpp
+-
+boost/config/workaround.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/detail/is_function_cxx_03.hpp
+boost/type_traits/is_reference.hpp
+-
+boost/type_traits/detail/is_function_ptr_helper.hpp
+-
+boost/type_traits/detail/is_function_ptr_tester.hpp
+-
+boost/type_traits/detail/yes_no_type.hpp
+-
+boost/type_traits/detail/is_function_msvc10_fix.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/detail/is_function_cxx_11.hpp
+boost/type_traits/integral_constant.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/detail/is_function_msvc10_fix.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/detail/is_function_ptr_helper.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/detail/is_function_ptr_tester.hpp
+boost/type_traits/detail/yes_no_type.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp
+boost/config.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/detail/is_mem_fun_pointer_tester.hpp
+boost/type_traits/detail/yes_no_type.hpp
+-
+boost/type_traits/detail/config.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/detail/is_member_function_pointer_cxx_03.hpp
+boost/type_traits/detail/is_mem_fun_pointer_impl.hpp
+-
+boost/type_traits/remove_cv.hpp
+-
+boost/type_traits/integral_constant.hpp
+-
+boost/type_traits/is_reference.hpp
+-
+boost/type_traits/is_array.hpp
+-
+boost/type_traits/detail/yes_no_type.hpp
+-
+boost/type_traits/detail/is_mem_fun_pointer_tester.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp
+boost/type_traits/integral_constant.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/detail/is_rvalue_reference_msvc10_fix.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/detail/yes_no_type.hpp
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/integral_constant.hpp
+boost/config.hpp
+-
+boost/detail/workaround.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/intrinsics.hpp
+boost/config.hpp
+-
+boost/type_traits/detail/config.hpp
+-
+boost/type_traits/is_same.hpp
+-
+algorithm
+-
+type_traits.h
+-
+msl_utility
+-
+cstddef
+-
+boost/type_traits/is_same.hpp
+-
+boost/type_traits/is_reference.hpp
+-
+boost/type_traits/is_volatile.hpp
+-
+boost/type_traits/is_same.hpp
+-
+boost/type_traits/is_reference.hpp
+-
+boost/type_traits/is_volatile.hpp
+-
+boost/type_traits/is_void.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_abstract.hpp
+cstddef
+-
+boost/type_traits/intrinsics.hpp
+-
+boost/type_traits/integral_constant.hpp
+-
+boost/static_assert.hpp
+-
+boost/type_traits/detail/yes_no_type.hpp
+-
+boost/type_traits/is_class.hpp
+-
+boost/type_traits/is_polymorphic.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_arithmetic.hpp
+boost/type_traits/is_integral.hpp
+-
+boost/type_traits/is_floating_point.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_array.hpp
+boost/type_traits/integral_constant.hpp
+-
+cstddef
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_class.hpp
+boost/type_traits/detail/config.hpp
+-
+boost/type_traits/intrinsics.hpp
+-
+boost/type_traits/integral_constant.hpp
+-
+boost/type_traits/is_union.hpp
+-
+boost/type_traits/detail/yes_no_type.hpp
+-
+boost/type_traits/is_scalar.hpp
+-
+boost/type_traits/is_array.hpp
+-
+boost/type_traits/is_reference.hpp
+-
+boost/type_traits/is_void.hpp
+-
+boost/type_traits/is_function.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_complete.hpp
+boost/type_traits/declval.hpp
+-
+boost/type_traits/integral_constant.hpp
+-
+boost/type_traits/remove_reference.hpp
+-
+boost/type_traits/is_function.hpp
+-
+boost/type_traits/detail/yes_no_type.hpp
+-
+boost/config/workaround.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_convertible.hpp
+boost/type_traits/intrinsics.hpp
+-
+boost/type_traits/integral_constant.hpp
+-
+boost/type_traits/is_complete.hpp
+-
+boost/type_traits/is_void.hpp
+-
+boost/type_traits/is_array.hpp
+-
+boost/static_assert.hpp
+-
+boost/type_traits/detail/yes_no_type.hpp
+-
+boost/type_traits/detail/config.hpp
+-
+boost/type_traits/is_array.hpp
+-
+boost/type_traits/is_arithmetic.hpp
+-
+boost/type_traits/is_void.hpp
+-
+boost/type_traits/is_abstract.hpp
+-
+boost/type_traits/add_lvalue_reference.hpp
+-
+boost/type_traits/add_rvalue_reference.hpp
+-
+boost/type_traits/is_function.hpp
+-
+boost/type_traits/remove_reference.hpp
+-
+boost/type_traits/declval.hpp
+-
+boost/type_traits/is_function.hpp
+-
+boost/type_traits/is_same.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_enum.hpp
+boost/type_traits/intrinsics.hpp
+-
+boost/type_traits/integral_constant.hpp
+-
+boost/type_traits/add_reference.hpp
+-
+boost/type_traits/is_arithmetic.hpp
+-
+boost/type_traits/is_reference.hpp
+-
+boost/type_traits/is_convertible.hpp
+-
+boost/type_traits/is_array.hpp
+-
+boost/type_traits/is_function.hpp
+-
+boost/type_traits/detail/config.hpp
+-
+boost/type_traits/is_class.hpp
+-
+boost/type_traits/is_union.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_floating_point.hpp
+boost/type_traits/integral_constant.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_function.hpp
+boost/type_traits/detail/config.hpp
+-
+boost/config/workaround.hpp
+-
+boost/type_traits/detail/is_function_cxx_11.hpp
+-
+boost/type_traits/detail/is_function_cxx_03.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_integral.hpp
+boost/config.hpp
+-
+boost/type_traits/integral_constant.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_lvalue_reference.hpp
+boost/type_traits/integral_constant.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_member_function_pointer.hpp
+boost/type_traits/detail/config.hpp
+-
+boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp
+-
+boost/type_traits/detail/is_member_function_pointer_cxx_03.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_member_pointer.hpp
+boost/detail/workaround.hpp
+-
+boost/type_traits/is_member_function_pointer.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_pointer.hpp
+boost/type_traits/integral_constant.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_polymorphic.hpp
+boost/type_traits/intrinsics.hpp
+-
+boost/type_traits/integral_constant.hpp
+-
+boost/type_traits/is_class.hpp
+-
+boost/detail/workaround.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_reference.hpp
+boost/type_traits/is_lvalue_reference.hpp
+-
+boost/type_traits/is_rvalue_reference.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_rvalue_reference.hpp
+boost/config.hpp
+-
+boost/type_traits/integral_constant.hpp
+-
+boost/type_traits/detail/is_rvalue_reference_msvc10_fix.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_same.hpp
+boost/type_traits/integral_constant.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_scalar.hpp
+boost/type_traits/is_arithmetic.hpp
+-
+boost/type_traits/is_enum.hpp
+-
+boost/type_traits/is_pointer.hpp
+-
+boost/type_traits/is_member_pointer.hpp
+-
+boost/config.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_union.hpp
+boost/type_traits/intrinsics.hpp
+-
+boost/type_traits/integral_constant.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_void.hpp
+boost/type_traits/integral_constant.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/is_volatile.hpp
+cstddef
+-
+boost/type_traits/integral_constant.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/remove_cv.hpp
+boost/config.hpp
+-
+boost/detail/workaround.hpp
+-
+cstddef
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/type_traits/remove_reference.hpp
+boost/config.hpp
+-
+boost/detail/workaround.hpp
+-
+
+C:/Program Files/boost/boost_1_73_0/boost/version.hpp
+
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/creational/4_Singleton/0_Database/main.cpp
+iostream
+-
+cstdio
+-
+string
+-
+vector
+-
+fstream
+-
+map
+-
+boost/lexical_cast/lexical_cast_old.hpp
+-
+
