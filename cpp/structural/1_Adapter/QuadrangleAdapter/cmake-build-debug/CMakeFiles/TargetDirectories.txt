@@ -1,0 +1,3 @@
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/structural/1_Adapter/QuadrangleAdapter/cmake-build-debug/CMakeFiles/QuadrangleAdapter.dir
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/structural/1_Adapter/QuadrangleAdapter/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/structural/1_Adapter/QuadrangleAdapter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
