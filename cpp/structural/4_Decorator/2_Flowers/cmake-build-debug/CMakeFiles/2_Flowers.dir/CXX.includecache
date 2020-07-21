@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/structural/4_Decorator/2_Flowers/main.cpp
+iostream
+-
+iostream
+-
+string
+-
+vector
+-
+numeric
+-
+sstream
+-
+gtest/gtest.h
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/structural/4_Decorator/2_Flowers/gtest/gtest.h
+
