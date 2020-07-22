@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/structural/7_Proxy/1_BankAccount/main.cpp
+iostream
+-
+string
+-
+sstream
+-
+memory
+-
+cpprest/http_client.h
+-
+cpprest/filestream.h
+-
+

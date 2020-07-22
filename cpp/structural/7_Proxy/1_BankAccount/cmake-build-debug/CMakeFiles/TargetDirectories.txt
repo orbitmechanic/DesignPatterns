@@ -1,0 +1,3 @@
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/structural/7_Proxy/1_BankAccount/cmake-build-debug/CMakeFiles/1_BankAccount.dir
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/structural/7_Proxy/1_BankAccount/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/structural/7_Proxy/1_BankAccount/cmake-build-debug/CMakeFiles/rebuild_cache.dir
