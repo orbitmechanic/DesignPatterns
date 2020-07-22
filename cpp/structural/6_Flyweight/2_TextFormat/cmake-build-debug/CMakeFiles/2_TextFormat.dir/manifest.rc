@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/orbit/Documents/code/DesignPatterns/cpp/structural/6_Flyweight/2_TextFormat/cmake-build-debug/CMakeFiles/2_TextFormat.dir/embed.manifest"
