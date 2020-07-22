@@ -1,0 +1,3 @@
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/structural/6_Flyweight/3_SentenceFormat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/structural/6_Flyweight/3_SentenceFormat/cmake-build-debug/CMakeFiles/3_SentenceFormat.dir
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/structural/6_Flyweight/3_SentenceFormat/cmake-build-debug/CMakeFiles/edit_cache.dir

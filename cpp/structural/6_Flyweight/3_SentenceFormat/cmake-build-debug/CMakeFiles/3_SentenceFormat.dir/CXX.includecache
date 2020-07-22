@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/structural/6_Flyweight/3_SentenceFormat/main.cpp
+iostream
+-
+string
+-
+vector
+-
+iterator
+-
+sstream
+-
+map
+-
+algorithm
+-
+gtest/gtest.h
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/structural/6_Flyweight/3_SentenceFormat/gtest/gtest.h
+

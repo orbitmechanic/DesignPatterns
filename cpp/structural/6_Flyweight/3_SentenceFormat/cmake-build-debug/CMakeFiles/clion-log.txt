@@ -1,0 +1,15 @@
+"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\orbit\Documents\code\DesignPatterns\cpp\structural\6_Flyweight\3_SentenceFormat
+CMake Error at CMakeLists.txt:6 (include_directories):
+  Syntax error in cmake code at
+
+    C:/Users/orbit/Documents/code/DesignPatterns/cpp/structural/6_Flyweight/3_SentenceFormat/CMakeLists.txt:6
+
+  when parsing string
+
+    C:\Users\orbit\Documents\code\googletest\googletest\include\gtest
+
+  Invalid character escape '\U'.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/orbit/Documents/code/DesignPatterns/cpp/structural/6_Flyweight/3_SentenceFormat/cmake-build-debug/CMakeFiles/CMakeOutput.log".
