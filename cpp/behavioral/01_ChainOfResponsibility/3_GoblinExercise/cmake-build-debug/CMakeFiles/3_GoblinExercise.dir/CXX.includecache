@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/01_ChainOfResponsibility/3_GoblinExercise/main.cpp
+iostream
+-
+vector
+-
+gtest/gtest.h
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/01_ChainOfResponsibility/3_GoblinExercise/gtest/gtest.h
+
