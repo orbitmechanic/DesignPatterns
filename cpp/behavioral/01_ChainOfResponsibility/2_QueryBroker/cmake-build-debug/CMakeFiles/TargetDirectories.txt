@@ -1,0 +1,3 @@
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/01_ChainOfResponsibility/2_QueryBroker/cmake-build-debug/CMakeFiles/2_QueryBroker.dir
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/01_ChainOfResponsibility/2_QueryBroker/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/01_ChainOfResponsibility/2_QueryBroker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
