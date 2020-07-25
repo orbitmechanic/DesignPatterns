@@ -1,0 +1,3 @@
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/08_State/3_BoostMSMPhone/cmake-build-debug/CMakeFiles/3_BoostMSMPhone.dir
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/08_State/3_BoostMSMPhone/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/08_State/3_BoostMSMPhone/cmake-build-debug/CMakeFiles/rebuild_cache.dir
