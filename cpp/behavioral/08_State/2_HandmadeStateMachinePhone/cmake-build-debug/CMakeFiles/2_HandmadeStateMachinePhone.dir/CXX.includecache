@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/08_State/2_HandmadeStateMachinePhone/main.cpp
+iostream
+-
+string
+-
+map
+-
+vector
+-
+
