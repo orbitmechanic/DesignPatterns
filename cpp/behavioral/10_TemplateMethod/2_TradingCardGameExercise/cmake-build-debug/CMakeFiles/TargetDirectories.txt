@@ -1,0 +1,3 @@
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/10_TemplateMethod/2_TradingCardGameExercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/10_TemplateMethod/2_TradingCardGameExercise/cmake-build-debug/CMakeFiles/2_TradingCardGameExercise.dir
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/10_TemplateMethod/2_TradingCardGameExercise/cmake-build-debug/CMakeFiles/edit_cache.dir

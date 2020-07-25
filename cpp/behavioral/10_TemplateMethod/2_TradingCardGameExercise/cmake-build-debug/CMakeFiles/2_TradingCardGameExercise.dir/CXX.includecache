@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/10_TemplateMethod/2_TradingCardGameExercise/main.cpp
+iostream
+-
+vector
+-
+complex
+-
+tuple
+-
+gtest/gtest.h
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/10_TemplateMethod/2_TradingCardGameExercise/gtest/gtest.h
+
