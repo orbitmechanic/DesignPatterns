@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/03_Interpreter/1_Handmade/main.cpp
+iostream
+-
+string
+-
+vector
+-
+cctype
+-
+sstream
+-
+memory
+-
+boost/lexical_cast_old.hpp
+-
+
