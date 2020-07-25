@@ -1,0 +1,3 @@
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/10_TemplateMethod/1_GenericGameExample/cmake-build-debug/CMakeFiles/1_GenericGameExample.dir
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/10_TemplateMethod/1_GenericGameExample/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/10_TemplateMethod/1_GenericGameExample/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/10_TemplateMethod/1_GenericGameExample/cmake-build-debug/CMakeFiles/1_GenericGameExample.dir/embed.manifest"
