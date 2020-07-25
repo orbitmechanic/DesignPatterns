@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/03_Interpreter/3_InterpreterExercise/main.cpp
+map
+-
+string
+-
+vector
+-
+regex
+-
+iostream
+-
+
