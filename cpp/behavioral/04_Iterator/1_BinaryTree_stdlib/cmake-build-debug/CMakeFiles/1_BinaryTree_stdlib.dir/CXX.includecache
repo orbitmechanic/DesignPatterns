@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/04_Iterator/1_BinaryTree_stdlib/main.cpp
+iostream
+-
+string
+-
+vector
+-
+memory
+-
+experimental/coroutine
+-
+experimental/generator
+-
+recursive_generator.h
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/04_Iterator/1_BinaryTree_stdlib/recursive_generator.h
+
