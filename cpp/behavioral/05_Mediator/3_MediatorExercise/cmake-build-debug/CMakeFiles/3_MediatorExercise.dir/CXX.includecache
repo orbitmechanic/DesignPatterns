@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/05_Mediator/3_MediatorExercise/main.cpp
+iostream
+-
+vector
+-
+gtest/gtest.h
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/05_Mediator/3_MediatorExercise/gtest/gtest.h
+helpers/iohelper.h
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/05_Mediator/3_MediatorExercise/helpers/iohelper.h
+exercise.cpp
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/05_Mediator/3_MediatorExercise/exercise.cpp
+
