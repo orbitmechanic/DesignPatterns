@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/orbit/Documents/code/DesignPatterns/cpp/behavioral/09_Strategy/3_QuadradicStrategyExercise/main.cpp
+iostream
+-
+vector
+-
+complex
+-
+tuple
+-
+limits
+-
+cmath
+-
+
