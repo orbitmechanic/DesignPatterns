@@ -25,6 +25,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
@@ -61,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597586041930</updated>
-      <workItem from="1597586045180" duration="303000" />
+      <workItem from="1597586045180" duration="896000" />
     </task>
     <servers />
   </component>
@@ -78,5 +85,27 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1366" height="240" key="GridCell.Tab.0.bottom" timestamp="1597587094478">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1366" height="240" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1597587094478" />
+    <state width="1366" height="240" key="GridCell.Tab.0.center" timestamp="1597587094477">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1366" height="240" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1597587094477" />
+    <state width="1366" height="240" key="GridCell.Tab.0.left" timestamp="1597587094477">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1366" height="240" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1597587094477" />
+    <state width="1366" height="240" key="GridCell.Tab.0.right" timestamp="1597587094478">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1366" height="240" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1597587094478" />
+    <state x="413" y="219" width="672" height="678" key="search.everywhere.popup" timestamp="1597586245723">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="413" y="219" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1597586245723" />
   </component>
 </project>
